@@ -148,6 +148,11 @@
 					"name": "Tertiary"
 				}
 			]
+		},
+		"custom": {
+			"typography": {
+				"fontFamily": "var(--wp--preset--font-family--roboto)"
+			}
 		}
 	},
 	"styles": {
@@ -166,7 +171,7 @@
 			},
 			"core/post-title": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
 					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
@@ -186,7 +191,7 @@
 			},
 			"core/query-title": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--small)",
 					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
@@ -214,7 +219,7 @@
 		"elements": {
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
 					"fontSize": "var(--wp--custom--typography--font-size--colossal)"
@@ -222,7 +227,7 @@
 			},
 			"h2": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--small)",
 					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
@@ -230,7 +235,7 @@
 			},
 			"h3": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
 					"fontSize": "var(--wp--custom--typography--font-size--huge)"
@@ -238,7 +243,7 @@
 			},
 			"h4": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
 					"fontSize": "var(--wp--preset--font-size--x-large)"
