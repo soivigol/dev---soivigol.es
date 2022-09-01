@@ -19,3 +19,23 @@ function soivigol_enqueue_scripts() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'soivigol_enqueue_scripts' );
+
+
+/**
+ * Sets up theme defaults and registers support for various WordPress features.
+ *
+ * @since Twenty Twenty-Two 1.0
+ *
+ * @return void
+ */
+function soivigol_add_support() {
+
+	// Add support for block styles.
+	add_theme_support( 'wp-block-styles' );
+
+	// Enqueue editor styles.
+	add_editor_style( 'style.css' );
+
+}
+
+add_action( 'after_setup_theme', 'soivigol_add_support' );

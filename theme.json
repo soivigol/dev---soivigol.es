@@ -1,5 +1,6 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
+	"version": 2,
 	"settings": {
 		"appearanceTools": true,
 		"layout": {
@@ -146,6 +147,11 @@
 					"slug": "tertiary",
 					"color": "#4D4855",
 					"name": "Tertiary"
+				},
+				{
+					"slug": "white",
+					"color": "#ffffff",
+					"name": "White"
 				}
 			]
 		},
@@ -159,7 +165,7 @@
 		"blocks": {
 			"core/button": {
 				"border": {
-					"radius": "0"
+					"radius": "5px"
 				},
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
@@ -172,7 +178,6 @@
 			"core/post-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--roboto)",
-					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
 					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
 				}
@@ -213,8 +218,8 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--background)",
-			"text": "var(--wp--preset--color--foreground)"
+			"background": "var(--wp--preset--color--foreground)",
+			"text": "var(--wp--preset--color--white)"
 		},
 		"elements": {
 			"h1": {
@@ -285,12 +290,13 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header"
+			"name": "header",
+			"title": "Header"
 		},
 		{
 			"area": "footer",
-			"name": "footer"
+			"name": "footer",
+			"title": "Footer"
 		}
-	],
-	"version": 2
+	]
 }
