@@ -36,6 +36,10 @@ function soivigol_add_support() {
 	// Enqueue editor styles.
 	add_editor_style( 'style.css' );
 
+	add_theme_support( 'align-wide' );
+
+	add_theme_support( 'align-full' );
+
 }
 
 add_action( 'after_setup_theme', 'soivigol_add_support' );
