@@ -19,6 +19,8 @@ function soivigol_register_custom_block_paterns() {
 		'section-with-items',
 		'section-description-featured',
 		'section-with-collaborators',
+		'section-services-img-left',
+		'section-services-img-right',
 	);
 
 	foreach ( $block_patterns as $block_pattern ) {
