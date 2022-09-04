@@ -44,3 +44,5 @@ function soivigol_add_support() {
 }
 
 add_action( 'after_setup_theme', 'soivigol_add_support' );
+
+require get_template_directory() . '/inc/patterns.php';

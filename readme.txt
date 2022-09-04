@@ -12,7 +12,7 @@ Theme to personal web page of David Viña
 
 == Changelog ==
 
-= 0.0.1 =
+= 1.0 =
 * Initial release
 
 == Copyright ==

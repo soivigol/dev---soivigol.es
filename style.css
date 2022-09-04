@@ -7,7 +7,7 @@ Description: Blokc theme based in a dark colors. It has various patters that it 
 Requires at least: 5.8
 Tested up to: 5.9
 Requires PHP: 5.7
-Version: 0.0.1
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template:
@@ -15,7 +15,7 @@ Text Domain: soivigolblocktheme
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks
 */
 
-*{
+* {
 	line-height: 1.2;
 }
 
@@ -57,7 +57,8 @@ div.soivigol-featured-single {
 	border-radius: 10px;
 }
 
-.soivigol-single-item-loop .wp-block-post-featured-image {
+.soivigol-single-item-loop .wp-block-post-featured-image,
+.soivigol-box {
 	padding-bottom: 75%;
     position: relative;
     overflow: hidden;
@@ -71,8 +72,8 @@ div.soivigol-featured-single {
     transform: translate(-50%, -50%);
     max-width: unset;
     min-width: 100%;
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     min-height: 100%;
     vertical-align: bottom;
 }

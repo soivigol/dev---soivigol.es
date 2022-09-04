@@ -157,6 +157,11 @@
 					"slug": "white",
 					"color": "#ffffff",
 					"name": "White"
+				},
+				{
+					"slug": "background-light",
+					"color": "#2e2e2e",
+					"name": "Dark Secondary"
 				}
 			]
 		},
