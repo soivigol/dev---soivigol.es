@@ -19,6 +19,7 @@ function soivigol_enqueue_scripts() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'soivigol_enqueue_scripts' );
+add_action( 'enqueue_block_editor_assets', 'soivigol_enqueue_scripts' );
 
 
 /**

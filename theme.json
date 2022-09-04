@@ -149,6 +149,11 @@
 					"name": "Tertiary"
 				},
 				{
+					"slug": "textsecondary",
+					"color": "#e5e5e5",
+					"name": "Text Seconday"
+				},
+				{
 					"slug": "white",
 					"color": "#ffffff",
 					"name": "White"
@@ -285,7 +290,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--primary)"
+					"text": "var(--wp--preset--color--secondary)"
 				}
 			}
 		},
