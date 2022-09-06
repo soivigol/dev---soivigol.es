@@ -1,6 +1,6 @@
 /*
 Theme Name: Soivigol Block Theme
-Theme URI: https://soivigol.dev/themes/soivigol-block-theme
+Theme URI: https://soivigol.dev/themes-soivigol-block-theme
 Author: David Viña
 Author URI: https://davidviña.es
 Description: Blokc theme based in a dark colors. It has various patters that it is ideal to create a personal page or a portfolio web.
@@ -131,4 +131,21 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 /* Fix full widht only in the Block Editor */
 .editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper > .alignfull, .editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .alignfull {
 	max-width: 100% !important;
+}
+
+/* Create styles to button featured to set in menu */
+.button-featured.button-featured .wp-block-navigation-item__content.wp-block-navigation-item__content {
+	background-color: var(--wp--preset--color--primary);
+	border-radius: 5px;
+	color: var(--wp--preset--color--background);
+	padding: .5em 1em;
+	transition: all ease-in-out .5;
+}
+
+.button-featured .wp-block-navigation-item__content:hover {
+	background-color: var(--wp--preset--color--secondary);
+}
+
+.soivigol-main-container {
+	margin-block-start: 0;
 }
