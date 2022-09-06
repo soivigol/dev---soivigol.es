@@ -2,7 +2,7 @@
 /**
  * Soivigol Block Theme Functions
  *
- * @package    soivigol-block-theme
+ * @package    soivigol-blocks
  */
 
 defined( 'ABSPATH' ) || exit;

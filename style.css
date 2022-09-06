@@ -1,6 +1,6 @@
 /*
-Theme Name: Soivigol Block Theme
-Theme URI: https://soivigol.dev/themes-soivigol-block-theme
+Theme Name: Soivigol Blocks
+Theme URI: https://soivigol.dev/themes-soivigol-blocks
 Author: David Viña
 Author URI: https://davidviña.es
 Description: Blokc theme based in a dark colors. It has various patters that it is ideal to create a personal page or a portfolio web.
@@ -11,8 +11,10 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template:
-Text Domain: soivigolblocktheme
+Text Domain: soivigol-blocks
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks
+
+Soivigol & Blocks is distributed under the terms of the GNU GPL.
 */
 
 * {
@@ -41,7 +43,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 figure.soivigol-featured-single,
 div.soivigol-featured-single {
 	min-height: 20rem;
-	margin-top: -15rem;
+	margin-top: -8rem;
 	position: relative;
 	z-index: 4;
 }

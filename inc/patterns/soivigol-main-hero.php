@@ -6,7 +6,7 @@
  */
 
 return array(
-	'title'      => __( 'Section main hero', 'soivigol-block-theme' ),
+	'title'      => __( 'Section main hero', 'soivigol-blocks' ),
 	'categories' => array( 'featured' ),
 	'content'    => '<!-- wp:cover {"overlayColor":"background-light","align":"full","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem","left":"1rem","right":"1rem"}}}} -->
 	<div class="wp-block-cover alignfull" style="padding-top:4rem;padding-right:1rem;padding-bottom:4rem;padding-left:1rem"><span aria-hidden="true" class="wp-block-cover__background has-background-light-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
@@ -15,16 +15,16 @@ return array(
 	<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
 	<div class="wp-block-column is-vertically-aligned-center">
 	<!-- wp:heading {"level":1,"style":{"typography":{"lineHeight":"1.2","fontSize":"2.5rem"}},"textColor":"background"} -->
-<h1 class="has-background-color has-text-color" style="font-size:2.5rem;line-height:1.2">' . __( 'Web Developer', 'soivigol-block-theme' ) . '<br>' . __( 'Specialized in WordPress', 'soivigol-block-theme' ) . '</h1>
+<h1 class="has-background-color has-text-color" style="font-size:2.5rem;line-height:1.2">' . __( 'Web Developer', 'soivigol-blocks' ) . '<br>' . __( 'Specialized in WordPress', 'soivigol-blocks' ) . '</h1>
 	<!-- /wp:heading -->
 
 	<!-- wp:heading {"textColor":"background","fontSize":"large"} -->
-	<h2 class="has-background-color has-text-color has-large-font-size">' . __( 'A little subtitle that highlights yours skills', 'soivigol-block-theme' ) . '</h2>
+	<h2 class="has-background-color has-text-color has-large-font-size">' . __( 'A little subtitle that highlights yours skills', 'soivigol-blocks' ) . '</h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:buttons -->
 	<div class="wp-block-buttons"><!-- wp:button -->
-	<div class="wp-block-button"><a class="wp-block-button__link" href="#">' . __( 'Call to action', 'soivigol-block-theme' ) . '</a></div>
+	<div class="wp-block-button"><a class="wp-block-button__link" href="#">' . __( 'Call to action', 'soivigol-blocks' ) . '</a></div>
 	<!-- /wp:button --></div>
 	<!-- /wp:buttons --></div>
 	<!-- /wp:column -->

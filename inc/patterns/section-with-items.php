@@ -6,7 +6,7 @@
  */
 
 return array(
-	'title'      => __( 'Section with three items', 'soivigol-block-theme' ),
+	'title'      => __( 'Section with three items', 'soivigol-blocks' ),
 	'categories' => array( 'featured' ),
 	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem","right":"1rem","left":"1rem"}}}} -->
 	<div class="wp-block-group alignwide" style="padding-top:4rem;padding-right:1rem;padding-bottom:4rem;padding-left:1rem"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"4rem"}}},"fontSize":"x-large"} -->
@@ -21,11 +21,11 @@ return array(
 	<!-- /wp:image -->
 
 	<!-- wp:heading {"level":3,"fontSize":"large"} -->
-	<h3 class="has-large-font-size">' . __( 'Title item 1', 'soivigol-block-theme' ) . '</h3>
+	<h3 class="has-large-font-size">' . __( 'Title item 1', 'soivigol-blocks' ) . '</h3>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"textColor":"textsecondary"} -->
-	<p class="has-textsecondary-color has-text-color">' . __( 'Short description aplied to the box item. This description is ideal to describe a short description of the a service that you offer to the clients.', 'soivigol-block-theme' ) . ' </p>
+	<p class="has-textsecondary-color has-text-color">' . __( 'Short description aplied to the box item. This description is ideal to describe a short description of the a service that you offer to the clients.', 'soivigol-blocks' ) . ' </p>
 	<!-- /wp:paragraph --></div>
 	<!-- /wp:group --></div>
 	<!-- /wp:column -->
@@ -37,11 +37,11 @@ return array(
 	<!-- /wp:image -->
 
 	<!-- wp:heading {"level":3,"fontSize":"large"} -->
-	<h3 class="has-large-font-size">' . __( 'Title item 2', 'soivigol-block-theme' ) . '</h3>
+	<h3 class="has-large-font-size">' . __( 'Title item 2', 'soivigol-blocks' ) . '</h3>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"textColor":"textsecondary"} -->
-	<p class="has-textsecondary-color has-text-color">' . __( 'Short description aplied to the box item. This description is ideal to describe a short description of the a service that you offer to the clients.', 'soivigol-block-theme' ) . '</p>
+	<p class="has-textsecondary-color has-text-color">' . __( 'Short description aplied to the box item. This description is ideal to describe a short description of the a service that you offer to the clients.', 'soivigol-blocks' ) . '</p>
 	<!-- /wp:paragraph --></div>
 	<!-- /wp:group --></div>
 	<!-- /wp:column -->
@@ -53,11 +53,11 @@ return array(
 	<!-- /wp:image -->
 
 	<!-- wp:heading {"level":3,"fontSize":"large"} -->
-	<h3 class="has-large-font-size">' . __( 'Title item 3', 'soivigol-block-theme' ) . '</h3>
+	<h3 class="has-large-font-size">' . __( 'Title item 3', 'soivigol-blocks' ) . '</h3>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"textColor":"textsecondary"} -->
-	<p class="has-textsecondary-color has-text-color">' . __( 'Short description aplied to the box item. This description is ideal to describe a short description of the a service that you offer to the clients.', 'soivigol-block-theme' ) . '</p>
+	<p class="has-textsecondary-color has-text-color">' . __( 'Short description aplied to the box item. This description is ideal to describe a short description of the a service that you offer to the clients.', 'soivigol-blocks' ) . '</p>
 	<!-- /wp:paragraph --></div>
 	<!-- /wp:group --></div>
 	<!-- /wp:column --></div>
@@ -65,7 +65,7 @@ return array(
 
 	<!-- wp:buttons -->
 	<div class="wp-block-buttons"><!-- wp:button -->
-	<div class="wp-block-button"><a class="wp-block-button__link" href="#">' . __( 'More info', 'soivigol-block-theme' ) . '</a></div>
+	<div class="wp-block-button"><a class="wp-block-button__link" href="#">' . __( 'More info', 'soivigol-blocks' ) . '</a></div>
 	<!-- /wp:button --></div>
 	<!-- /wp:buttons --></div>
 	<!-- /wp:group -->',

@@ -6,7 +6,7 @@
  */
 
 return array(
-	'title'      => __( 'Section of the collaborators', 'soivigol-block-theme' ),
+	'title'      => __( 'Section of the collaborators', 'soivigol-blocks' ),
 	'categories' => array( 'featured' ),
 	'content'    => '<!-- wp:cover {"overlayColor":"background-light","align":"full","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem","left":"1rem","right":"1rem"}}}} -->
 	<div class="wp-block-cover alignfull" style="padding-top:4rem;padding-right:1rem;padding-bottom:4rem;padding-left:1rem"><span aria-hidden="true" class="wp-block-cover__background has-background-light-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
@@ -14,7 +14,7 @@ return array(
 	<div class="wp-block-group"><!-- wp:columns {"verticalAlignment":"top"} -->
 	<div class="wp-block-columns are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"80%"} -->
 	<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:80%"><!-- wp:heading {"level":3,"style":{"color":{"duotone":["#333","#CCC"]}},"fontSize":"medium"} -->
-	<h3 class="has-medium-font-size">' . __( 'I collaborate with web design agencies and I work how freelance to big business', 'soivigol-block-theme' ) . '</h3>
+	<h3 class="has-medium-font-size">' . __( 'I collaborate with web design agencies and I work how freelance to big business', 'soivigol-blocks' ) . '</h3>
 	<!-- /wp:heading --></div>
 	<!-- /wp:column -->
 

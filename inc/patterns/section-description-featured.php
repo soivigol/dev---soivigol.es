@@ -6,7 +6,7 @@
  */
 
 return array(
-	'title'      => __( 'Section of the featured description', 'soivigol-block-theme' ),
+	'title'      => __( 'Section of the featured description', 'soivigol-blocks' ),
 	'categories' => array( 'featured' ),
 	'content'    => '<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem","right":"1rem","left":"1rem"}}},"layout":{"inherit":true}} -->
 	<div class="wp-block-group" style="padding-top:4rem;padding-right:1rem;padding-bottom:4rem;padding-left:1rem"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
@@ -18,15 +18,15 @@ return array(
 
 	<!-- wp:column {"verticalAlignment":"center"} -->
 	<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"large"} -->
-	<h2 class="has-large-font-size" style="font-style:normal;font-weight:700">' . __( 'Title that describe this section', 'soivigol-block-theme' ) . '</h2>
+	<h2 class="has-large-font-size" style="font-style:normal;font-weight:700">' . __( 'Title that describe this section', 'soivigol-blocks' ) . '</h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"textColor":"textsecondary"} -->
-	<p class="has-textsecondary-color has-text-color">' . __( 'Description aplied to this section. This description is ideal to describe a short description of the a service or about you that you offer to the clients.', 'soivigol-block-theme' ) . '</p>
+	<p class="has-textsecondary-color has-text-color">' . __( 'Description aplied to this section. This description is ideal to describe a short description of the a service or about you that you offer to the clients.', 'soivigol-blocks' ) . '</p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:paragraph -->
-	<p><strong>' . __( 'Phrase featured of this section', 'soivigol-block-theme' ) . '</strong></p>
+	<p><strong>' . __( 'Phrase featured of this section', 'soivigol-blocks' ) . '</strong></p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:paragraph -->

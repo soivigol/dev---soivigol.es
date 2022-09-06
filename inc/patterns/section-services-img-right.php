@@ -6,21 +6,21 @@
  */
 
 return array(
-	'title'      => __( 'Section of a services with the image at right', 'soivigol-block-theme' ),
+	'title'      => __( 'Section of a services with the image at right', 'soivigol-blocks' ),
 	'categories' => array( 'featured' ),
 	'content'    => '<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"margin":{"top":"6rem","bottom":"2px"},"padding":{"top":"1rem","right":"1rem","bottom":"1rem","left":"1rem"}}}} -->
 	<div class="wp-block-columns alignwide are-vertically-aligned-center" style="margin-top:6rem;margin-bottom:2px;padding-top:1rem;padding-right:1rem;padding-bottom:1rem;padding-left:1rem"><!-- wp:column {"verticalAlignment":"center","width":"","style":{"color":{"duotone":["#333","#CCC"]}}} -->
 	<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"style":{"color":{"duotone":["#333","#CCC"]}},"fontSize":"large"} -->
-	<h2 class="has-large-font-size">' . __( 'Section title of a service or similar something', 'soivigol-block-theme' ) . '</h2>
+	<h2 class="has-large-font-size">' . __( 'Section title of a service or similar something', 'soivigol-blocks' ) . '</h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph -->
-	<p>' . __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'soivigol-block-theme' ) . '</p>
+	<p>' . __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'soivigol-blocks' ) . '</p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:buttons {"style":{"color":{"duotone":["#333","#CCC"]}}} -->
 	<div class="wp-block-buttons"><!-- wp:button -->
-	<div class="wp-block-button"><a class="wp-block-button__link" href="#">' . __( 'Contact me', 'soivigol-block-theme' ) . '</a></div>
+	<div class="wp-block-button"><a class="wp-block-button__link" href="#">' . __( 'Contact me', 'soivigol-blocks' ) . '</a></div>
 	<!-- /wp:button --></div>
 	<!-- /wp:buttons --></div>
 	<!-- /wp:column -->
