@@ -2,7 +2,7 @@
 /**
  * Register pattern section to show logos of the collaborators.
  *
- * @package    soivigolblocktheme
+ * @package    soivigol-blocks
  */
 
 return array(
@@ -31,27 +31,27 @@ return array(
 
 	<!-- wp:gallery {"columns":6,"imageCrop":false,"linkTo":"none"} -->
 	<figure class="wp-block-gallery has-nested-images columns-6"><!-- wp:image {"id":57,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#333","#CCC"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigolblocktheme/assets/img/logotype.png" alt="" class="wp-image-57"/></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigol-blocks/assets/img/logotype.png" alt="" class="wp-image-57"/></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:image {"id":56,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#333","#CCC"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigolblocktheme/assets/img/logotype.png" alt="" class="wp-image-56"/></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigol-blocks/assets/img/logotype.png" alt="" class="wp-image-56"/></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:image {"id":55,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#333","#CCC"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigolblocktheme/assets/img/logotype.png" alt="" class="wp-image-55"/></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigol-blocks/assets/img/logotype.png" alt="" class="wp-image-55"/></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:image {"id":54,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#333","#CCC"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigolblocktheme/assets/img/logotype.png" alt="" class="wp-image-54"/></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigol-blocks/assets/img/logotype.png" alt="" class="wp-image-54"/></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:image {"id":53,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#333","#CCC"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigolblocktheme/assets/img/logotype.png" alt="" class="wp-image-53"/></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigol-blocks/assets/img/logotype.png" alt="" class="wp-image-53"/></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:image {"id":52,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#333","#CCC"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigolblocktheme/assets/img/logotype.png" alt="" class="wp-image-52"/></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigol-blocks/assets/img/logotype.png" alt="" class="wp-image-52"/></figure>
 	<!-- /wp:image --></figure>
 	<!-- /wp:gallery -->
 

@@ -2,7 +2,7 @@
 /**
  * Register pattern section of a services with the image in the right side.
  *
- * @package    soivigolblocktheme
+ * @package    soivigol-blocks
  */
 
 return array(

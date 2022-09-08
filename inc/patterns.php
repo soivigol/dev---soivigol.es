@@ -2,7 +2,7 @@
 /**
  * Register default patterns offers in the theme.
  *
- * @package    soivigolblocktheme
+ * @package    soivigol-blocks
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -27,7 +27,7 @@ function soivigol_register_custom_block_paterns() {
 		$pattern_file = get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' );
 
 		register_block_pattern(
-			'soivigolblocktheme/' . $block_pattern,
+			'soivigol-blocks/' . $block_pattern,
 			require $pattern_file
 		);
 	}

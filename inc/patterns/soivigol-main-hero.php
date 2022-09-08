@@ -2,7 +2,7 @@
 /**
  * Register pattern section main hero.
  *
- * @package    soivigolblocktheme
+ * @package    soivigol-blocks
  */
 
 return array(

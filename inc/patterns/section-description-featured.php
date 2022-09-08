@@ -2,7 +2,7 @@
 /**
  * Register pattern section description featured with image in one column and title, short description and link in another column.
  *
- * @package    soivigolblocktheme
+ * @package    soivigol-blocks
  */
 
 return array(
