@@ -5,6 +5,7 @@
  * @package    soivigol-blocks
  */
 
+$url_theme = get_template_directory_uri();
 return array(
 	'title'      => __( 'Section with three items', 'soivigol-blocks' ),
 	'categories' => array( 'featured' ),
@@ -17,7 +18,7 @@ return array(
 	<div class="wp-block-columns"><!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"right":"1rem"}}}} -->
 	<div class="wp-block-group" style="padding-right:1rem"><!-- wp:image {"id":36,"sizeSlug":"full","linkDestination":"none"} -->
-	<figure class="wp-block-image size-full"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigol-blocks/assets/img/web-code.png" alt="" class="wp-image-36"/></figure>
+	<figure class="wp-block-image size-full"><img src="' . esc_url( $url_theme ) . '/assets/img/web-code.png" alt="" class="wp-image-36"/></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -33,7 +34,7 @@ return array(
 	<!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"right":"1rem"}}}} -->
 	<div class="wp-block-group" style="padding-right:1rem"><!-- wp:image {"id":37,"sizeSlug":"full","linkDestination":"none"} -->
-	<figure class="wp-block-image size-full"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigol-blocks/assets/img/computer.png" alt="" class="wp-image-37"/></figure>
+	<figure class="wp-block-image size-full"><img src="' . esc_url( $url_theme ) . '/assets/img/computer.png" alt="" class="wp-image-37"/></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -49,7 +50,7 @@ return array(
 	<!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"right":"1rem"}}}} -->
 	<div class="wp-block-group" style="padding-right:1rem"><!-- wp:image {"id":38,"sizeSlug":"full","linkDestination":"none"} -->
-	<figure class="wp-block-image size-full"><img src="' . esc_url( home_url() ) . '/wp-content/themes/soivigol-blocks/assets/img/construction.png" alt="" class="wp-image-38"/></figure>
+	<figure class="wp-block-image size-full"><img src="' . esc_url( $url_theme ) . '/assets/img/construction.png" alt="" class="wp-image-38"/></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:heading {"level":3,"fontSize":"large"} -->
