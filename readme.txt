@@ -65,3 +65,12 @@ Fonts:
 Roboto
 Url: https://fonts.google.com/specimen/Roboto/about
 Licence: https://www.apache.org/licenses/LICENSE-2.0
+
+Images:
+  The images are used from pxhere
+    -https://pxhere.com/en/photo/758989
+    -https://pxhere.com/en/photo/714406
+    -https://pxhere.com/en/photo/2660
+    -https://pxhere.com/en/photo/1640254
+    URL: https://pxhere.com
+    License: https://pxhere.com/en/license (Creative Commons Zero (CC0) license - https://creativecommons.org/publicdomain/zero/1.0/)
