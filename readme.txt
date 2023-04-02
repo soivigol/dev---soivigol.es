@@ -30,6 +30,7 @@ In this template have six patters to create a pretty page to offer your services
 
 = 1.0 =
 * Initial release
+* Fix issues related with the full widht and wide widht in the editor pages and post.
 
 == Copyright ==
 
